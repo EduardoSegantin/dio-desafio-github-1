@@ -9,9 +9,13 @@
 **BLOBS** ("arquivos") - guarda sha dos objetos / contem metadados do objeto - 'blob 9\0conteudo' (tipo, tamanho, conteúdo)
 **TREES** ("pastas")- armazena as BLOBS, aponta para outras TREES, caminho dos arquivos, possui sha1 do arquivo.
 **COMMITS** - aponta para: TREE, parente (outras commits), autor, mensagem
-_________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
 
 #### Comandos GIT
+
 Criar Repositório (pasta oculta):
 ​comando: git init
 ​comando: ls -a -> mostra a pasta oculta
@@ -32,7 +36,7 @@ Criar Repositório (pasta oculta):
 
 **git config --list** - lista as configuração do git (git config --global -- unset user.email ou .name...)
 
-**git remote origin**- adiciona a origem do local para onde se vai enviar o repositorio. | *EX-* git remote origin "link_do_Repositório"
+**git remote origin** - adiciona a origem do local para onde se vai enviar o repositorio. | *EX-* git remote origin "link_do_Repositório"
 
 **git remote -v**- lista as listas de repositórios cadastradas
 
@@ -41,9 +45,24 @@ Criar Repositório (pasta oculta):
 **git pull origin master**- puxa os arquivos do git para a maquina
 
 **git  clone** - copia um repositório do github para sua maquina | *EX* : git clone http//:endereco_do_repositorio  
-_________________________________________________________________________________________________________________________________
+
+___________________________
+
+
+
+#### Exemplo em sequencia:
+
+1. git pull origin master **ou** git clone "link_do_Repositório"
+2. git add . **ou** git add --all
+3. git commit -m "mensagem"
+4. git push origin master (main)
+
+______
+
+
 
 #### Links Uteis
+
 [Video instalação e configuração Ubuntu](https://www.youtube.com/watch?v=ZMgLZUYd8Cw&t=7s&ab_channel=ProgrammingKnowledge)
 
 [Token GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
