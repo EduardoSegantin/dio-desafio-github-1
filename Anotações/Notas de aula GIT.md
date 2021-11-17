@@ -52,10 +52,11 @@ ___________________________
 
 #### Exemplo em sequencia:
 
-1. git pull origin master **ou** git clone "link_do_Repositório"
-2. git add . **ou** git add --all
-3. git commit -m "mensagem"
-4. git push origin master (main)
+1. git pull origin master 
+2. git clone "link_do_Repositório"
+3. git add . **ou** git add --all
+4. git commit -m "mensagem"
+5. git push origin master (main)
 
 ______
 
