@@ -50,3 +50,5 @@ Criar Repositório (pasta oculta):
 
 [Video instalação e configuração Ubuntu](https://www.youtube.com/watch?v=ZMgLZUYd8Cw&t=7s&ab_channel=ProgrammingKnowledge)
 
+[Token GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
